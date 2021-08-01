@@ -1,0 +1,1 @@
+Portifolio basico feito em HTML, CSS, JS e JQuery para pratica das ferramentas
