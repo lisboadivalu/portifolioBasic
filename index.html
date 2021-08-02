@@ -15,11 +15,9 @@
             <img src="" alt="" id="logo">
             <div class="main-navigation">
                 <ul class="main-navigation-ul">
-                    <li><a href="">Home</a></li>
-                    <li><a href="">Sobre Nos</a></li>
-                    <li><a href="">Contato</a></li>
-                    <li><a href="">Projetos</a></li>
-                    <li><a href="">Trabalhe Conosco</a></li>
+                    <li><a href="#main-section" class="close" onclick="menuFunction(this)">Home</a></li>
+                    <li><a href="#contato" class="close" onclick="menuFunction(this)" >Contato</a></li>
+                    <li><a href="https://github.com/lisboadivalu" target="_blank" class="close" onclick="menuFunction(this)">Projetos</a></li>
                 </ul>
             </div>
             <div id="btnBurguer" class="burguer-container" onclick="menuFunction(this)">
@@ -29,7 +27,7 @@
             </div>
         </div>
     </nav>
-    <section class="section-top-banner">
+    <section class="section-top-banner" id="main-section">
         <div class="top-banner__inner site-container">
             <div class="top-banner__image">
                 <img src="img/profile.png" alt="">
@@ -41,10 +39,21 @@
                 <div class="top-banner__text-down">
                     <h2 class="top-banner__h2">Lisboa</h2>
                 </div>
-                <a href="" class="a-button">Leia mais</a>
+                <a href="#info" class="a-button">Leia mais</a>
             </div>
         </div>
     </section>
+    <section class="main-section-content" id="info">
+        <div class="main-section-text-content">
+            <div class="text-content">
+                <p>lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum</p><br/>
+            </div>
+        </div>
+    </section>
+    <section class="">
+
+    </section>
+
 </body>
 
 <script src="js/jquery-3.6.0.min.js"></script>

@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    scroll-behavior: smooth;
 }
 
 .site-container {
@@ -70,6 +71,8 @@
 .burguer-container{
     cursor: pointer;
     z-index: 3;
+    position: fixed;
+    right: 5%;
 }
 
 .bar1, .bar2, .bar3{
@@ -104,7 +107,7 @@
     background-size: cover;
 }
 
-.section-top-banner:after {
+.section-top-banner::after {
     content: '';
     position: absolute;
     top: 0;
@@ -154,3 +157,29 @@
     color: #777;
 }
 
+.main-section-content {
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    background-image: url("../img/back.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.main-section-text-content {
+    position: relative;
+    background-color: #000;
+    opacity: 0.9;
+    z-index: 1;
+}
+
+.text-content {
+    margin: auto;
+    border: 2px solid #fff;
+    border-radius: 10px;
+    height: 300px;
+    width: 300px;
+    background-color: #fff;
+    z-index: 2;
+    text-align: center;
+}
