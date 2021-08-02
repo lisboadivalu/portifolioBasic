@@ -158,19 +158,20 @@
 }
 
 .main-section-content {
-    margin: 0;
+    margin: auto;
     height: 100%;
     width: 100%;
-    background-image: url("../img/back.jpg");
+    background-image: url("../img/coding-man.jpg");
     background-position: center;
     background-size: cover;
+    
 }
 
 .main-section-text-content {
     position: relative;
+    vertical-align: middle;
     background-color: #000;
     opacity: 0.9;
-    z-index: 1;
 }
 
 .text-content {
@@ -182,4 +183,5 @@
     background-color: #fff;
     z-index: 2;
     text-align: center;
+    font-weight: 400;
 }

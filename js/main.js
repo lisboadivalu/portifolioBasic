@@ -8,3 +8,8 @@ function menuFunction(x)
             $('.close')[0].style.display = 'block';
         }
     }
+$(document).ready(function(){
+    $('.burguer-container,' ).on('click', function(){
+        $('.main-navigation').toggle('slow')
+    })
+})
