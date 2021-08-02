@@ -4,7 +4,7 @@ function menuFunction(x)
     }
 
 $(document).ready(function(){
-    $('.burguer-container').on('click', function(){
+    $('.burguer-container, .close' ).on('click', function(){
         $('.main-navigation').toggle('slow')
     })
 })
@@ -14,3 +14,7 @@ $(document).ready(function(){
         $('.main-navigation').toggle('slow')
     })
 })
+
+function closeSlideMenu(){
+    document.getElementByClass('close').style.width = '0px';
+}
