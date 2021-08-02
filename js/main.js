@@ -8,13 +8,3 @@ $(document).ready(function(){
         $('.main-navigation').toggle('slow')
     })
 })
-
-$(document).ready(function(){
-    $('.close').on('click', function(){
-        $('.main-navigation').toggle('slow')
-    })
-})
-
-function closeSlideMenu(){
-    document.getElementByClass('close').style.width = '0px';
-}
