@@ -228,7 +228,7 @@
 
 @media (min-width: 360px) and (max-width: 1023px) {
     .my_photo{
-        width: 320px;
+        width: 270px;
         position: relative;
         top: 100px;
         border-radius: 5%;
