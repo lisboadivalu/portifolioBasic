@@ -252,4 +252,8 @@
     .img-navigation img {
         width: 20vw;
     }
+
+    .text-content {
+        padding: 10px;
+    }
 }
